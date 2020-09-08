@@ -21,4 +21,4 @@ To make this work locally:
 9. `flask db migrate`
 10. `flask db upgrade`
 11. Finally, run the local server using: `python manage.py`
-12. Then visit http://localhost:5000/ - automatic! in a browser
+12. Then visit http://localhost:5000/ in a browser
