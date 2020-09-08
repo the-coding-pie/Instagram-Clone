@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  min-width: 400px;
+  max-width: 400px;
+  height: 48px;
+  background-color: #ffffff;
+  z-index: 99999;
+  box-shadow: 0px -1px 2px #666;
+}
+
+.navbar a {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  margin: 0;
+  padding: 0;
+  color: #111;
+}
+
+.navbar a.active {
+  background-color: lightpink;
+}
+
+
+.navbar a svg {
+  font-size: 2rem;
+}
+
+@media(max-width: 400px) {
+  .navbar {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}

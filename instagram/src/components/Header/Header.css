@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  min-width: 400px;
+  max-width: 400px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  z-index: 99999;
+  box-shadow: 0px 1px 2px #666;
+}
+
+.header__logo {
+  width: 103px;
+  height: 29px;
+}
+
+.header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header div:nth-child(1) {
+  flex: 1;
+}
+
+.header div:nth-child(2) {
+  flex: 4;
+}
+
+.header div:nth-child(3) {
+  flex: 1;
+}
+
+@media(max-width: 400px) {
+  .header {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}

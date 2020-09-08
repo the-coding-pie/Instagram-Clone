@@ -1,0 +1,138 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.post:last-child {
+  margin-bottom: 48px;
+}
+
+.post__top {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.avatar {
+  flex: 1;
+  cursor: pointer;
+  max-width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  margin: 2px 5px;
+}
+
+.post__top strong {
+  flex: 9;
+}
+
+.post__top .more {
+  flex: 1;
+  cursor: pointer;
+}
+
+.post__img {
+  width: 100%;
+}
+
+.post__img img {
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.post__fun {
+  padding: 5px 0px;
+}
+
+.post__fun svg {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.post__likes {
+  padding: 0px 0px 10px 10px;
+}
+
+.post__post {
+  padding: 0px 0px 10px 10px;
+}
+
+.comment_link {
+  color: #111111;
+}
+
+.modal {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  transform: translate(-50, -50);
+  z-index: 1999999;
+  min-width: 400px;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .content {
+  background-color: #fff;
+  width: 90%;
+  margin: 15% auto;
+  min-height: 40px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2999999;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 3px;
+
+}
+
+.modal .content li {
+  cursor: pointer;
+  width: 100%;
+  padding: 5px;
+  font-size: 1.1rem;
+  margin: 5px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.close {
+  color: #aaa;
+  font-size: 1.9em;
+  font-weight: bold;
+  position: relative;
+  right: -150px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media(max-width: 400px) {
+  .modal {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .close {
+    right: -100px;
+  }
+}

@@ -1,0 +1,68 @@
+.edit_profile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.edit_profile .edit_profile__top {
+  background-color: #fff;
+  padding: 5px 10px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.edit_profile .error_field {
+  width: 100%;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.edit_profile form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.edit_profile_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit_profile_img img {
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  margin: 10px 20px 15px 0;
+  border-radius: 50%;
+}
+
+.edit_profile_img input {
+  outline: none;
+}
+
+.edit_profile input[type="text"], .edit_profile input[type="email"] {
+  min-width: 350px;
+  max-width: 350px;
+}
+
+.edit_profile textarea {
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 230px;
+  max-height: 230px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid#DBDBDB;
+  border-radius: 3px;
+  background-color: #FAFAFA;
+}
+
+.edit_profile button {
+  min-width: 350px;
+  max-width: 350px;
+  margin: 30px 0px 0px 0px;
+}

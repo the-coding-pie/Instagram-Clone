@@ -1,0 +1,18 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup .icon {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #666;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.signup .signup__form {
+  display: flex;
+  flex-direction: column;
+}

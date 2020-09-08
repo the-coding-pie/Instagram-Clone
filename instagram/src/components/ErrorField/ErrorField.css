@@ -1,0 +1,7 @@
+.error_field {
+  color: #ff0000;
+  margin: 1px 5px;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+}

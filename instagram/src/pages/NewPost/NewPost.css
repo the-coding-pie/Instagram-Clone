@@ -1,0 +1,43 @@
+.newpost {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.newpost form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.newpost form textarea {
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 230px;
+  max-height: 230px;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid #eee;
+}
+
+.newpost input[type="file"] {
+  margin: 10px 0px;
+  outline: none;
+
+}
+
+.newpost .share_btn {
+  width: 200px;
+  margin-bottom: 150px;
+}
+
+.newpost .newpost__error {
+  margin: 10px 0px 5px 0px;
+  color: #ff0000;
+}

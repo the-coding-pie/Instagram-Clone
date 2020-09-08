@@ -1,0 +1,9 @@
+.home {
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.home__msg {
+  margin: 10px 0;
+}
