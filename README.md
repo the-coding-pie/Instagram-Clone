@@ -1,7 +1,9 @@
 # Instagram-Clone
 A Simple yet Complete Instagram Clone built with Flask and React.  
 
-![Finished Version](https://i.ibb.co/PgqWs18/instagram.png)
+![Finished Version](https://i.ibb.co/zS6czd5/1.png)  
+
+![Finished Version](https://i.ibb.co/sWfJxmX/2.png)
 
 To run this project, you would need:
 * python3
