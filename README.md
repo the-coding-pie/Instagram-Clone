@@ -8,9 +8,9 @@ To run this project, you would need:
 
 To make this work locally:
 
-1. Click on Code > Download Zip and Extract it
+1. Click on `Code` > `Download Zip` and Extract it
 2. Navigate to the root folder and open it in Visual Studio Code (or any other modern text editor)
-3. Make a venv (virtual environment):  `python3 -m venv venv`
+3. Make a venv (virtual environment) using:  `python3 -m venv venv`
 4. `source venv/bin/activate`
 5. `pip install -r requirements.txt`
 6. `export FLASK_APP=manage.py`
